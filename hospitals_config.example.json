@@ -1,0 +1,12 @@
+[
+  {
+    "nome": "Hospital Exemplo A",
+    "id_planilha": "YOUR_GOOGLE_SHEET_ID_HERE",
+    "emails": ["responsavel@hospital-a.com", "gestor@hospital-a.com"]
+  },
+  {
+    "nome": "Hospital Exemplo B",
+    "id_planilha": "YOUR_GOOGLE_SHEET_ID_HERE",
+    "emails": ["responsavel@hospital-b.com"]
+  }
+]
