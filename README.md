@@ -1,4 +1,4 @@
-# 🏥 RTCON Hospital Management System
+# 🏥 Hospital Management System
 
 A complete hospital compliance and alert management system built with Python, featuring automated email notifications, a Streamlit web portal, and an AI-powered chatbot for document analysis.
 
