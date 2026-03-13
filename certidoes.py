@@ -8,12 +8,12 @@ import os
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # 2. Junta o caminho da pasta com o nome do arquivo da planilha.
-file_path = os.path.join(script_dir, "CertidoesRTCON.xlsx")
+file_path = os.path.join(script_dir, "Certidoes.xlsx")
 
 
 # --- Validação e Execução Principal ---
 if not os.path.exists(file_path):
-    print(f"ERRO: A planilha 'CertidoesRTCON.xlsx' não foi encontrada.")
+    print(f"ERRO: A planilha 'Certidoes.xlsx' não foi encontrada.")
     print(f"O programa procurou por ela em: {file_path}")
     print("Certifique-se de que a planilha está na mesma pasta que o script 'certidoes.py'.")
     input("\nPressione Enter para fechar.")
