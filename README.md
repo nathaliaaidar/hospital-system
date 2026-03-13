@@ -69,8 +69,6 @@ cp .env.example .env
 
 Edit `.env`:
 ```env
-RTCON_EMAIL=your_email@gmail.com
-RTCON_SENHA=your_gmail_app_password
 ```
 
 > ⚠️ Use a **Gmail App Password**, not your main account password.  
