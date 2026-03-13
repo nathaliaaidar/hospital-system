@@ -6,14 +6,14 @@ from datetime import timedelta
 import os
 
 # --- CONFIGURAÇÕES E CREDENCIAIS ---
-ARQUIVO_PLANILHA = '/home/nathalia/nathaliaproject/RTCON/PlanilhaFormulario/FormularioRTCONmensal2025_IBCCOncologia.xlsx'
+ARQUIVO_PLANILHA = 'CAMINHO'
 NOME_DA_ABA = 'Gerais'
 
-EMAIL_REMETENTE = "naorespondartcon@gmail.com"
-SENHA_REMETENTE = "pmve ugnp jefg kwgh"
+EMAIL_REMETENTE = 
+SENHA_REMETENTE = 
 
-EMAILS_DESTINATARIOS = ['arthur@gruportcon.com', 'andre@gruportcon.com']
-EMAILS_COPIA = ['lucas@gruportcon.com', 'herminiane@gruportcon.com']
+EMAILS_DESTINATARIOS = 
+EMAILS_COPIA = 
 
 # Função auxiliar para envio real (precisa ser definida caso vá descomentar o código abaixo)
 def enviar_email_real(item, vencimento):
