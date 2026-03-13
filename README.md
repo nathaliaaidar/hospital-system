@@ -62,27 +62,15 @@ cd rtcon-hospital-system
 pip install -r requirements.txt
 ```
 
-### 3. Configure environment variables
-```bash
-cp .env.example .env
-```
-
-Edit `.env`:
-```env
-```
-
-> ⚠️ Use a **Gmail App Password**, not your main account password.  
-> Never commit real credentials to version control.
-
-### 4. Configure hospitals
+### 3. Configure hospitals
 Edit `hospitals_config.json` based on the provided example template.
 
-### 5. Run the web portal
+### 4. Run the web portal
 ```bash
 streamlit run app_rtcon.py
 ```
 
-### 6. Run the automated dispatcher
+### 5. Run the automated dispatcher
 ```bash
 python envio_automatico.py
 ```
