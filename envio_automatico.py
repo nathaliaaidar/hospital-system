@@ -15,11 +15,11 @@ from datetime import timedelta
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 NOME_DA_ABA = "Gerais"
 
-EMAIL_REMETENTE = os.getenv("RTCON_EMAIL")
-SENHA_REMETENTE = os.getenv("RTCON_SENHA")
+EMAIL_REMETENTE = 
+SENHA_REMETENTE = 
 
 # CC list for all alerts — configure as needed
-EMAILS_COPIA_GERAL = os.getenv("RTCON_CC", "").split(",")
+EMAILS_COPIA_GERAL = os.getenv("CC", "").split(",")
 
 # Load hospital list from external config file (not committed to version control)
 def load_hospitals():
@@ -86,7 +86,7 @@ def processar_hospital(hospital):
 
     print(f"\n🏥 Processing: {nome}...")
 
-    url = f"https://docs.google.com/spreadsheets/d/{planilha_id}/export?format=xlsx"
+    url = f"GOOGLE PLANILHA"
     arquivo_temp = os.path.join(BASE_DIR, f"temp_{nome.replace(' ', '_')}.xlsx")
 
     try:
@@ -132,7 +132,7 @@ if __name__ == "__main__":
         exit(1)
 
     if not EMAIL_REMETENTE or not SENHA_REMETENTE:
-        print("⚠️  RTCON_EMAIL and RTCON_SENHA environment variables not set.")
+        print("⚠️  EMAIL and SENHA environment variables not set.")
         print("   Set them in your .env file or GitHub Actions secrets.")
 
     print(f"🔄 Processing {len(HOSPITAIS)} hospitals...")
